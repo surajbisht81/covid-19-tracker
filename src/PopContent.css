@@ -1,0 +1,40 @@
+
+/* .popup{
+    height: 50px;
+    background-color: white;
+    padding:1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+} */
+
+.popup__flag{
+    height: 80px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.popup__flag img{
+    width: 100px;
+    border-radius: 5px;
+}
+
+.popup__cases, .popup__recovered, .popup__deaths {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.popup__country{
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+}
+
+.popup__flag {
+    padding-bottom: 30px;
+}
+
+.popup__country{
+    margin: 10px 0;
+}
